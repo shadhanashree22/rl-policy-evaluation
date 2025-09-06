@@ -78,10 +78,6 @@ P
 
 init_state
 
-
-state, reward, done, info = env.step(RIGHT)
-print("state:{0} - reward:{1} - done:{2} - info:{3}".format(state, reward, done, info))
-
 pi_frozenlake = lambda s: {
     0: RIGHT,
     1: DOWN,
@@ -124,8 +120,8 @@ pi_2 = lambda s: {
     15: LEFT  # Stop at goal
 }[s]
 
-print("Name: Archana k")
-print("Register Number: 212222240011")
+print("Name: S V SHADHANASHREE")
+print("Register Number: 212223230202")
 print_policy(pi_2, P, action_symbols=('<', 'v', '>', '^'), n_cols=4)
 print('Reaches goal {:.2f}%. Obtains an average undiscounted return of {:.4f}.'.format(
     probability_success(env, pi_2, goal_state=goal_state) * 100,
