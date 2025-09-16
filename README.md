@@ -187,12 +187,7 @@ else:
     print("\nBoth policies have their merits.")
 V1>=V2
 
-if(np.sum(V1>=V2)==11):
-  print("The first policy is the better policy")
-elif(np.sum(V2>=V1)==11):
-  print("The second policy is the better policy")
-else:
-  print("Both policies have their merits.")
+
 ```
 
 
@@ -200,13 +195,8 @@ else:
 Mention the first and second policies along with its state value function and compare them
 <img width="822" height="207" alt="image" src="https://github.com/user-attachments/assets/2a0aa114-13ed-4b8f-be0a-4757063aa80b" />
 
-![image](https://github.com/user-attachments/assets/b93c9ab3-a865-4d4d-abf1-b9b209417133)
-![image](https://github.com/user-attachments/assets/7e61ecae-f2b7-4604-8c8c-f627f8ec0183)
-![image](https://github.com/user-attachments/assets/369316f4-1c94-4714-87c5-b6d1557bcc25)
-![image](https://github.com/user-attachments/assets/7666a7ba-dfdc-442f-8dfa-dd629b679a8a)
-![image](https://github.com/user-attachments/assets/dcca4ecc-dd90-45d4-bf1f-794670a25a62)
-![image](https://github.com/user-attachments/assets/752e0a8a-3494-4228-acb3-30a5018d9aee)
-![image](https://github.com/user-attachments/assets/dcf64c96-5def-45cd-9cc4-7311860e9b76)
+<img width="647" height="502" alt="image" src="https://github.com/user-attachments/assets/58279912-c50d-4eb5-a100-5982d6e86ee7" />
+
 
 
 
